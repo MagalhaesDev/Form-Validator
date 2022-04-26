@@ -40,8 +40,8 @@ function checkEmail(input) {
         showMessageError(input, 'Email não valido');
 }
 function passwordWithTeenCharacters(input) {
-    if (input.value.length > 10)
-        showMessageError(input, 'Senha passou de 10 caracteres');
+    if (input.value.length < 10)
+        showMessageError(input, 'Senha tem que ter no mínimo 10 caracteres');
 }
 function samePassword(password, password2) {
     if (password.value !== password2.value) {

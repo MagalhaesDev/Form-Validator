@@ -27,8 +27,8 @@ function checkEmail(input: HTMLInputElement): void {
 }
 
 function passwordWithTeenCharacters(input: HTMLInputElement): void {
-  if (input.value.length > 10)
-    showMessageError(input, 'Senha passou de 10 caracteres');
+  if (input.value.length < 10)
+    showMessageError(input, 'Senha tem que ter no mínimo 10 caracteres');
 }
 
 function samePassword(
