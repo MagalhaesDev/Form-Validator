@@ -1,5 +1,5 @@
-# Todo
-This system consists of an API for a todoList, using CRUD(create,read,update,delete) with HTTP methods, having the functionality to create a new user, create a todo, update the todo, display and remove them.
+# Validating form
+system for validating a form
 
 
 ## Technology 
